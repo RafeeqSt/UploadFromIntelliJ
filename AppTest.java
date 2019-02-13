@@ -15,13 +15,14 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        int num1 = 1;
+        int num1 = 4;
         int num2 = 2;
+        String operator = '-';
         int ans;
 
-        ans = num1 + num2;
+        ans = num1 - num2;
 
-        System.out.println("The answer to the mathematical problem of 1 + 2 is: " +ans);
+        System.out.println("The answer to the mathematical problem of "+num1+" "+operator+" "+num2+" is: " +ans);
 
         assertTrue( true );
     }
